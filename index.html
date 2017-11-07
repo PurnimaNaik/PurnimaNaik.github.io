@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+ <script src="webPortfolio.js"></script>
+ <link rel="stylesheet" type="text/css" href="webPortfolio.css">
+ 
+<style type="text/css">
+
+        #mobileNav{
+display: none;
+    }
+      #SGS{
+  	display: none;
+  }
+
+
+@media screen and (max-width: 1030px) {
+  
+  #SG{
+  	display: none;
+  }
+   #SGS{
+  	display: inline;
+  }
+
+    #mynav{
+display: none;
+    }
+
+/*       .name{
+display: none;
+    }*/
+
+        #mobileNav{
+display: block;
+    }
+
+}
+ 
+
+ 
+</style>
+
+</head>
+
+<body>
+<div id="mobileNav">
+<nav class="navbar navbar-inverse" style="background-image:url(nav.jpg) !important;">
+  <div class="container-fluid">
+
+    <div class="navbar-header" style="float:right !important; padding-right: -3px;" >
+   <br>
+ 
+<button type="button" class="toggle" data-toggle="collapse" data-target="#myNavbar" style="
+    margin-bottom: 15px;
+
+">
+        
+        <p align="center"><span class="glyphicon glyphicon-menu-hamburger" style="float:right !important;color:black !important;padding-bottom: 5px;padding-top: 5px;padding-left: 1px;background-image:url("nav.jpg") !important;"></span></p>
+
+      </button>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp
+    
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar" style="
+    padding-top: 11px;background-image:url(b.jpg) !important;
+">
+      <ul class="nav navbar-nav" style="font-size: 17px;font-family:cursive;font-weight:bold">
+        <li><a href="#skills" style="color:white !important;font-weight:bold">Technical Skills</a></li>
+        <li><a href="#AP" style="color:white !important;font-weight:bold">Projects</a></li>
+        <li><a href="#SGS" style="color:white !important;font-weight:bold">Screengrabs</a></li>
+        <li><a href="#RC" style="color:white !important;font-weight:bold">Courses</a></li>
+        <li><a href="#interests" style="color:white !important;font-weight:bold">Interests</a></li>
+        <li><a href="#footr" style="color:white !important;font-weight:bold">Resume</a></li>
+    
+      </ul>
+    </div>
+
+<!-- style="background-image:url("nav.jpg") !important; -->
+  </div>
+</nav>
+
+</a>
+</div>
+
+<div class="container">
+<div class="row">
+
+	<div class="col-sm-1"></div>
+	<div class="col-sm-7"><br><br><br>
+  <div style="font-size: 17px;">
+ <p style="font-family:cursive;font-size:35px;font-weight:bold;" id="MainTitle" >About</p>
+  <p style="font-family:cursive;font-size:30px;" class="name" id="MainTitle">Purnima Naik</p><br>
+I am a graduate student at Northeastern University, Boston, pursing Master of Science in Information Systems. I have completed my Bachelor's in Information Technology from Mumbai University, India. I am a hardworking, focused and motivated individual who constantly seeks new challenges to keep myself intellectually engaged.  
+
+<br><br>As a software developer, I aim to create engaging applications that run seamlessly despite having complex functionalities. Through the course of my education, I have acquired many skills that have helped me develop complicated service applications. This, coupled with my prior experience of working as a digital marketing analyst (specializing in SEO) had bolstered my ability to make good websites in particular.
+<br><br>I am currently studying Smartphones based Web Development, where I am using Objective-C to create applications for the iOS platform. My other course, Advanced Data Science and Analytics is propelling me towards Big Data analytics.
+
+<br><br>It gives me great satisfaction to be able to learn something that would help me solve issues faced in the real world. Through all my efforts, I constantly strive to present simple solutions to convoluted problems.
+<br><br>
+<br><br><br><br>
+
+<div id="skills" class=".slideanim">
+<div id="MainTitle" onclick="window.location.hash='1';">Technical Skills </div>
+<b>Languages</b>: Java, JavaScript, HTML5, CSS3, PHP, SQL, R, Python<br>
+<b>Web Technologies & Frameworks</b>:Bootstrap, jQuery, Angular JS, AJAX, Spring MVC, Hibernate, JDBC<br>
+<b>Databases</b>: MySQL, SQL Server, PostgreSQL, Oracle 12c Programming Tools: NetBeans, Spring Tool Suite, Maven, Toad Data Modeler, PowerBI<br>
+<b>Other Tools</b>: Google Analytics, Google Search Console<br>
+</div>
+<br><br>
+<p>
+	<div id="AP" class=".slideanim">
+<div id="MainTitle">Projects</div>
+<div id="Title">Freshers’ Guide Website</div>
+Created a website that provided information about mobile plans and banks to the new students of Northeastern University.
+Features include real time profile simulation, bank recommending calculator, pagination, graphs, animations and email functionality.<br><br>
+
+<div id="Title">E-Commerce Cars Website</div>
+Developed an e-commerce application to compare, buy and sell cars.
+Implemented the project using annotation based controllers, annotation based mapping, inheritance using table per subclass mapping, spring security and web flow.
+Integrated cookies and hidden form field to track user clicks and show customized content. <br><br>
+<div id="Title">High School Database Management and BI</div>
+Cleaned and normalized a high school database. 
+Created entity-relationship and dimensional models with respect to various factors such as attendance, discipline, academic performance etc.
+Developed data cubes and data visualizations for student, parent, teacher and administrator roles.
+Formulated SQL queries for the dashboard with respect to the aforementioned roles.<br><br>
+
+<div id="Title">Enterprise Management Application</div>
+Designed & developed a java application for companies that manufacture chemically synthesized products. The project featured functionalities for 7 different use cases.
+Using singleton pattern, implemented the concept of logins, work requests and work queues to manage the demand and supply of raw materials and finished products.
+Displayed simulation of factory workspace and sensor dependent manufacturing processes using timers.<br><br>
+<p>
+
+
+<div id="SG">
+<div id="MainTitle">Screengrabs:</div>
+<p style="font-size: 13px;">*Since the projects are not live yet, I have included the following screengrabs to give you a better idea of my work.</p>
+<div class="row">
+
+  <div class="col-sm-2">
+    <a href="1.png" target="_blank"><img src="1.jpg" class="img-thumbnail" alt="Banking Hompepage" width="95px" height="80px" align="left"></a>
+    <br><br><br><br><br><br><br><br>
+    <a href="4.png" target="_blank"><img src="4.jpg" class="img-thumbnail" alt="Merchandise" width="95px" height="80px" align="left"></a>
+  </div>
+
+  <div class="col-sm-2"><br>
+  <a href="3.png" target="_blank"><img src="3.jpg" class="img-thumbnail" alt="Graphs" width="95px" height="80px" align="left"></a>
+  </div>
+  <div class="col-sm-2">
+<a href="2.png" target="_blank"><img src="2.jpg" class="img-thumbnail" alt="Mobile Homepage" width="95px" height="80px" align="left"></a>
+  <br><br><br><br><br><br>
+<a href="5.png" target="_blank"><img src="5.jpg" class="img-thumbnail" alt="CarDeal" width="95px" height="80px" align="left"></a>
+</div>
+</div>
+</div>
+
+<div id="SGS">
+<div id="MainTitle">Screengrabs:</div>
+<p style="font-size: 13px;">*Since the projects are not live yet, I have included the following screengrabs to give you a better idea of my work.</p>
+<div class="row">
+
+<ul>
+	<a href="3.png" target="_blank"><img src="3.jpg" class="img-thumbnail" alt="Graphs" width="95px" height="80px" align="left"></a>
+	<a href="1.png" target="_blank"><img src="1.jpg" class="img-thumbnail" alt="Banking Hompepage" width="95px" height="80px" align="left"></a>
+<a href="5.png" target="_blank"><img src="5.jpg" class="img-thumbnail" alt="CarDeal" width="95px" height="80px" align="left"></a>
+<a href="2.png" target="_blank"><img src="2.jpg" class="img-thumbnail" alt="Mobile Homepage" width="95px" height="80px" align="left"></a>
+	<br>
+	<!-- <br><li><a href="4.png" target="_blank"><img src="4.jpg" class="img-thumbnail" alt="Merchandise" width="95px" height="80px" align="left"></a></li> -->
+</ul>
+</div>
+</div>
+
+<!-- <a href="#" id="pop"><img id="imageresource" src="pk.jpg" alt="NFG" style="width:95px;height:80px"></a>
+<a href="#" id="pop"><img id="imageresource" src="pk.jpg" alt="NFG" style="width:95px;height:80px"></a>
+<a href="#" id="pop"><img id="imageresource" src="pk.jpg" alt="NFG" style="width:95px;height:80px"></a> -->
+<br>
+
+</div>
+
+
+<div id="MainTitle">Courses:</div>
+	<div id="RC" class=".slideanim">
+<div id="Title">Relevant Courses:</div>
+	<ul style="list-style-type:square">
+		<li>Application Engineering and Development</li>
+		<li>Web Development Tools & Methods</li>
+		<li>Web Design and User Experience</li>
+		<li>Data Management and Database Design</li>
+	</ul>
+		<div id="Title">Current Courses:</div>
+	<ul style="list-style-type:square">
+		<li>Advanced Data Science and Analytics</li>
+		<li>Smartphones based Web Development</li>
+	</ul>
+</div>
+
+<br><br>
+<div id="interests">
+<div id="MainTitle" class=".slideanim">Interests</div>
+<div class="row">
+	<div class="col-sm-4">
+<span class="glyphicon glyphicon-picture"></span>&nbsp&nbsp&nbspPainting<br>
+</div>
+<div class="col-sm-4">
+	<span class="glyphicon glyphicon-music"></span>&nbsp&nbsp&nbspPlaying violin<br>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+<br>
+<div class="row">
+	<div class="col-sm-4">
+	<span class="glyphicon glyphicon-camera"></span>&nbsp&nbsp&nbspPhotography
+</div>
+<div class="col-sm-4">
+	<span class="glyphicon glyphicon-globe logo"></span>&nbsp&nbsp&nbspTravelling
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+<br>
+<div class="row">
+	<div class="col-sm-4">
+<span class="glyphicon glyphicon-cutlery"></span>&nbsp&nbsp&nbspCooking
+</div>
+</div>
+<br><br><br>
+</div>
+
+<div id="MainTitle">
+	<a href="PurnimaNaik_Resume.pdf" target="_blank" style="font-size:35px;color:#CC2326;
+  text-shadow:1px 1px 1px #DC2A73;">Resume</h4></a>
+	</div>
+
+<br><br><br><br><br><br><br>
+<footer>
+  <p id="footr" style="color:black;font-size:9px;color:grey">Posted by: Purnima Naik &nbsp&nbsp | &nbsp&nbsp &copy; 2016 All rights reserved
+</p>
+</footer>
+
+  </div>
+	</div>
+
+	<div class="col-sm-3" style="position:fixed;right:20px" id="mynav">
+<br>
+
+<div align="center"><img class="img-responsive" src="dp.jpg" width="150" height="200" style="box-shadow: 0 6px 9px 0 black, 0 8px 22px 0 black;"/><br>
+  <p style="font-family:cursive;font-size:25px">Purnima Naik</p>
+    <p style="font-family:cursive;font-size:20px">Dreamer | Developer | Achiever</p>
+
+  <p>Master of Science in Information Systems, Northeastern University, Boston.</p>
+
+<div id="1"><br>
+	<a href="#skills" style="color:white !important">Technical Skills</a>
+</div>
+
+<div id="2"><br>
+	<a href="#AP" style="color:white !important">Projects</a>
+</div>
+
+<div id="3"><br>
+  <a href="#SG" style="color:white !important">Screengrabs</a>
+</div>
+
+<div id="4"><br>
+	<a href="#RC" style="color:white !important">Courses</a>
+</div>
+
+<div id="5"><br>
+	<a href="#interests" style="color:white !important">Interests</a>
+</div>
+
+<div id="6"><br>
+	<a href="#interests" style="color:white !important">Resume</a>
+</div>
+<br><br>
+	<div>
+
+  <p>Contact me</p>
+                  
+<div><span class="glyphicon glyphicon-phone"></span> 857-800-4374</div>
+    <div><span class="glyphicon glyphicon-envelope"></span>&nbsp naik.p@husky.neu.edu</div>
+    <div><span class="glyphicon glyphicon-briefcase"></span>&nbsp<a href="https://www.linkedin.com/in/purnima-naik-0b310a86" target="_blank" style="color:white !important"> LinkedIn</a></div>
+
+<br>
+<!--  -->
+</div>
+	</div>
+</div>
+
+
+
+<br><br><br>
+</div> <!-- container -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

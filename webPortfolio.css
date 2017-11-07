@@ -1,0 +1,79 @@
+
+body{
+/*background-image:url("galaxy.pdf");*/
+background-size: 1400px;
+background-color: white;
+/*text-shadow:0px 1px 0px black;
+*/color:black;
+
+}
+
+.col-sm-3{
+background-image:url("s.jpg");
+color:white;
+font-weight: bolder;
+}
+.about{
+  color:black;
+  font-size: 19px;
+  text-shadow:0px 0px 0px black;
+  font-weight: bold;
+  /*font-family: cursive;*/
+}
+
+#Title{
+  color:black;
+  font-weight: bold; 
+}
+
+#MainTitle{
+ color:#CC2326 !important;
+  text-shadow:1px 0px 1px #DC2A73;
+  font-weight: bold; 
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.navbar {
+color:pink !important;  
+}
+
+
+
+
+
