@@ -105,7 +105,7 @@ $(document).ready(function(){
       var hash = this.hash;
 
       $('html, body').animate({
-        scrollTop: $(hash).offset().top -270
+        scrollTop: $(hash).offset().top -20
       }, 800, function(){
    
 
