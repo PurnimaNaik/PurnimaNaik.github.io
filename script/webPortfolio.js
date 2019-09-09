@@ -14,6 +14,7 @@ $("#pop").on("click", function() {
 });
 
 $(window).scroll(function() {
+
   $(".slideanim").each(function(){
     var pos = $(this).offset().top;
 
@@ -30,6 +31,12 @@ $(document).ready(function(){
 
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
+
+    if ($('#skills').is(':visible')) {
+      console.log("skills visible")
+  } else {
+    console.log("skills not visible")
+  }
 
     if(scroll_pos <450) {
 
@@ -90,5 +97,8 @@ $(document).ready(function(){
       });
     }
   });
+
+
+
 
 });
