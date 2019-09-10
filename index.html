@@ -14,11 +14,16 @@
   <body>
     <div class="mainContainer">
         <div id="sideNav" class="sidenav">
+            
+            <span class="quickLinks">Quick Links</span> 
             <a href="javascript:void(0)" class="closebtn" id="close" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <hr>
+            <a href="#introTitle" onclick="closeNav()">About</a>
+            <a href="#skills" onclick="closeNav()">Technical Skills</a>
+            <a href="#AP" onclick="closeNav()">Personal Projects</a>
+            <a href="#PIP" onclick="closeNav()">Projects in Production</a>
+            <a href="#RC" onclick="closeNav()">Project Demo</a>
+            <a href="#RC" onclick="closeNav()">Resume</a>
           </div>
       <div class="contentContainer">
 
@@ -32,7 +37,7 @@
              
             </div>
         <div class="content">
-          <p class="aboutTitle">About</p>
+          <p class="aboutTitle" id="introTitle">About</p>
 
           <div id="intro">
           I am a strategic problem solver who strives to come up with simple
@@ -210,7 +215,7 @@
             
             <div id="PIP" class=".slideanim" onclick="window.location.hash='1';">
                 <div class="subTitle">Projects in production:</div>
-              <ul style="list-style-type:square">
+              <ul class="list" style="list-style-type:square">
                 <li> Crop Reco (iOS App)- <a href="https://drive.google.com/file/d/14vhN1wAktS2hjGzzn4VyS61DdjpXZ6X8/view" target="_blank">App Store**</a> |
                 <a href="https://github.com/PurnimaNaik/crop-recommendation-app" target="_blank">Github Repo</a></li>
 
@@ -236,7 +241,7 @@
 
             <div class="subTitle">Project video demos:</div>
             <div id="RC" class=".slideanim" onclick="window.location.hash='1';">
-              <ul style="list-style-type:square">
+              <ul class="list" style="list-style-type:square">
                 <li> Wall Street Journal Mobile Website - <a href="https://drive.google.com/file/d/14vhN1wAktS2hjGzzn4VyS61DdjpXZ6X8/view" target="_blank">Demo</a> |
                 <a href="https://github.com/PurnimaNaik/Wall-Street-Journal-Mobile-Website" target="_blank">Github Repo</a></li>
                 <li> Github User Directory - <a href="https://drive.google.com/file/d/1ToRf_bJK29N8QqcehPOj77FxtgcCXiyA/view?usp=sharing" target="_blank">Demo</a> |
@@ -253,8 +258,7 @@
 <br/>
 
 <div class="resumeTitle">
-  <a href="assets/PurnimaNaik_Resume.pdf" target="_blank" style="font-size:35px;color:#CC2326;
-  text-shadow:1px 1px 1px #DC2A73;text-decoration: none;">Resume</h4></a>
+  <a href="assets/PurnimaNaik_Resume.pdf" target="_blank" class="resumeTitle">Resume</h4></a>
 </div>
 
 <br><br><br><br><br><br><br>

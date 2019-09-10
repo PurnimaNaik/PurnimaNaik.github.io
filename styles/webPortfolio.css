@@ -72,9 +72,6 @@ a {
   padding-bottom: 8px;
 }
 
-.index {
-}
-
 .indexContainer {
   height: 40vh;
   display: flex;
@@ -226,19 +223,30 @@ a {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 20px;
+  color: black;
   display: block;
   transition: 0.3s;
+}
+hr{
+  margin-top: 2px;
+}
+.quickLinks{
+  position: absolute;
+  font-size: 25px;
+  top:22px;
+  margin-left: 19px;
+  color: #cc2326;
 }
 
 .sidenav a:hover {
@@ -256,9 +264,6 @@ a {
 
 
 @media only screen and (max-width: 1024px) {
-  /* .indexContainer{
-    font-size: 25px;
-  } */
 
   .nameTag {
     font-size: 32px;
@@ -277,6 +282,7 @@ a {
 }
 
 @media only screen and (max-width: 858px) {
+
   .nameTag {
     font-size: 28px;
   }
@@ -294,6 +300,47 @@ a {
 }
 
 @media only screen and (max-width: 760px) {
+  .aboutTitle {
+    font-family: cochin;
+    font-weight: 500;
+    font-size: 23px;
+    padding-top: 15px;
+    text-shadow: none;
+  }
+
+  .resumeTitle{
+    font-family: cochin;
+    font-weight: 500;
+    font-size: 23px;
+    text-shadow: none;
+  }
+  
+  .subTitle {
+    font-family: cochin;
+    font-weight: 500;
+    font-size: 23px;
+    text-shadow: none;
+  }
+  #subTitle {
+    font-family: cochin;
+    font-weight: 500;
+    font-size: 23px;
+    text-shadow: none;
+  }
+  .nameTagInStickyHeader {
+    font-family: cochin;
+    font-weight: 300;
+    font-size: 29px;
+    text-shadow: none;
+  }
+  .navbarContent{
+    padding-top: 8px;
+  }
+  .nameTag {
+    font-family: cochin;
+    font-weight: 100;
+    
+  }
   .legendStripContent {
     font-size: 16px;
   }
@@ -303,6 +350,11 @@ a {
   .legendStrip {
     margin-left: 0vw;
     margin-right: 0vw;
+  }
+  .list {
+    padding-left: 19px;
+    list-style-type: square;
+  
   }
 }
 
