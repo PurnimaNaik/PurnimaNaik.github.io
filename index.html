@@ -13,7 +13,24 @@
   </head>
   <body>
     <div class="mainContainer">
+        <div id="sideNav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" id="close" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
       <div class="contentContainer">
+
+          <div class="navbar" id="navbar">
+              
+            <div class="navbarContent">
+                <span onclick="openNav()" id="hamburgerMenuIcon" class="glyphicon glyphicon-menu-hamburger"></span>
+               <p class="nameTagInStickyHeader">Purnima Naik</p>
+            </div>
+              <!-- <img src="assets/hamburgerMenu.jpg"  class="hamburgerMenuIcon"/> -->
+             
+            </div>
         <div class="content">
           <p class="aboutTitle">About</p>
 
@@ -256,8 +273,8 @@
           <div class="legendStripContent">
 
             <div class="imgDegreeContainer">
-          <img src="assets/dp.jpg" width="210vw"  style="box-shadow: 0 6px 9px 0 black; margin-bottom:20px ;margin-top:20px"/>
-         <p style="font-family:cursive;font-size:25px;margin-bottom:5px">Purnima Naik</p>
+          <img src="assets/dp.jpg"  class="displayImage"/>
+         <p class="nameTag">Purnima Naik</p>
 
         <p>B.E. in Information Technology<br>
           M.S. in Information Systems</p>

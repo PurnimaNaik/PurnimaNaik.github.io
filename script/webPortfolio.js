@@ -60,11 +60,28 @@ $(window).scroll(function() {
 });
 
 
+function openNav() {
+  document.getElementById("sideNav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("sideNav").style.width = "0";
+}
+
+
 $(document).ready(function(){
   var scroll_pos = 0;
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
 
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
+
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
 
     var isElementInView = Utils.isElementInView($('#intro'), false);
     if (isElementInView) {
@@ -78,7 +95,6 @@ $(document).ready(function(){
 
     var isElementInView = Utils.isElementInView($('#skills'), false);
     if (isElementInView) {
-        console.log('skills in view');
         $("#1").css('text-decoration', 'underline');
         $("#2").css('text-decoration', 'none');
         $("#3").css('text-decoration', 'none');
