@@ -35,6 +35,9 @@ a {
   border: 0;
   /* width: 100vh; */
 }
+.navbar sticky{
+  display: none;
+}
 
 .displayImage {
   box-shadow: 0 6px 9px 0 black;
@@ -311,7 +314,7 @@ hr{
   .resumeTitle{
     font-family: cochin;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 28px;
     text-shadow: none;
   }
   
@@ -364,6 +367,9 @@ hr{
   }
 
   .navbar {
+    display: block;
+  }
+  .navbar sticky{
     display: block;
   }
 
