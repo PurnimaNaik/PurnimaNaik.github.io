@@ -34,11 +34,11 @@ Utils.prototype = {
 var Utils = new Utils();
 
 $(document).ready(function(){
-  $(document).scroll(function(){
-    $("#miniIntro").animate({left: '250px'},1100);
-    $(".about").fadeIn(1100);
-    $("#p").fadeIn(1100);
-  });
+  // $(document).scroll(function(){
+  //   $("#miniIntro").animate({left: '250px'},1100);
+  //   $(".about").fadeIn(1100);
+  //   $("#p").fadeIn(1100);
+  // });
 });
 
 
@@ -49,14 +49,14 @@ $("#pop").on("click", function() {
 
 $(window).scroll(function() {
 
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
+  // $(".slideanim").each(function(){
+  //   var pos = $(this).offset().top;
 
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-      $(this).addClass("slide");
-    }
-  });
+  //   var winTop = $(window).scrollTop();
+  //   if (pos < winTop + 600) {
+  //     $(this).addClass("slide");
+  //   }
+  // });
 });
 
 
