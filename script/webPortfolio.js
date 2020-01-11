@@ -104,7 +104,7 @@ $(document).ready(function(){
         
     } 
 
-    var isElementInView = Utils.isElementInView($('#AP'), false);
+    var isElementInView = Utils.isElementInView($('#personalProjects'), false);
     if (isElementInView) {
       $("#1").css('text-decoration', 'none');
       $("#2").css('text-decoration', 'underline');
@@ -114,7 +114,7 @@ $(document).ready(function(){
     } 
 
 
-    var isElementInView = Utils.isElementInView($('#PIP'), false);
+    var isElementInView = Utils.isElementInView($('#productionProjects'), false);
     if (isElementInView) {
       $("#1").css('text-decoration', 'none');
       $("#2").css('text-decoration', 'none');
