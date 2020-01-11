@@ -77,6 +77,7 @@ $(document).ready(function(){
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
 
+
     if (window.pageYOffset >= sticky) {
       navbar.classList.add("sticky")
     } else {
@@ -184,10 +185,9 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top -20
       }, 800, function(){
-
-
         window.location.hash = hash;
       });
+
     }
   });
 

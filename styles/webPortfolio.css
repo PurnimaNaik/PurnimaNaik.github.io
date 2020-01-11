@@ -6,6 +6,12 @@ body {
   color: black;
   margin: 0;
 }
+a:focus{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
 p {
   margin: 0;
 }
