@@ -70,6 +70,15 @@ a {
   padding-top: 55px;
   padding-bottom: 8px;
 }
+.extResumeTitle {
+  color: #cc2326 !important;
+  text-shadow: 1px 0px 1px #dc2a73;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
 .subTitle {
   color: #cc2326 !important;
@@ -320,6 +329,13 @@ hr{
   }
 
   .resumeTitle{
+    font-family: cochin;
+    font-weight: 500;
+    font-size: 28px;
+    text-shadow: none;
+  }
+
+  .extResumeTitle{
     font-family: cochin;
     font-weight: 500;
     font-size: 28px;
