@@ -123,7 +123,7 @@ $(document).ready(function(){
       $("#5").css('text-decoration', 'none');
      
     } 
-    var isElementInView = Utils.isElementInView($('#RC'), false);
+    var isElementInView = Utils.isElementInView($('#demo'), false);
     if (isElementInView) {
       $("#1").css('text-decoration', 'none');
       $("#2").css('text-decoration', 'none');
